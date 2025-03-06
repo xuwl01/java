@@ -1,0 +1,15 @@
+chapter 1 
+task1：掌握下载、安装java开发工具箱
+https://www.oracle.com/java/
+
+task2：掌握开发环境变量的配置
+win：高级系统设置-环境变量-Path-新建 "D:\java\jdk-22\bin"
+macOS：~/.bash_profile press "i"进入编辑 "JAVA_HOME="
+
+task3：学会编写1个java程序
+
+class first{
+  public static void main(String[] args){
+  System.out.println("Hello!World.")
+  }
+}
