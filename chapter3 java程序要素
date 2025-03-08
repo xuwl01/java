@@ -1,0 +1,46 @@
+chapter 3 java程序要素
+task1:
+掌握java程序等组成。
+public class Test3_2{
+  public static void main(String[] args){
+  int x;
+  for(x = 0 ; x < 3 ; x++){
+    System.out.println(x+"*"+x+"="+x * x);
+    }
+  }
+}
+main()方法是执行的入口，有且只有一个。public表示公用；static表示静态方法，可以不依赖对象存在；void没有返回值。
+
+task2:
+掌握JAVA程序注释的使用
+1）单行注释。"//"
+2) 多行注释 
+"/* sth.
+sth. */"
+3) 文档注释
+"/**
+  */"
+快捷键"ctrl+/"
+
+task3:
+掌握Java中的标识符和关键字
+标识符不能以数字开头，不能是关键字。
+
+task4:
+了解Java中的变量及其设置
+byte age = 20;  (-128~127)
+int num = 10 (4字节整数)
+float price = 12.5f (4字节浮点数)    ps:float price = 12.5 is wrong;
+double weight = 12.5 （8字节浮点数)
+
+task5:
+了解程序的检测
+1）语法错误
+2）语义错误
+
+
+
+
+
+
+
