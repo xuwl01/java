@@ -1,0 +1,46 @@
+chapter 4 最常用的编程元素——常量与变量
+
+task1
+掌握常量和变量的声明方法
+public class Test4_1{
+  static final int Year = 365; //定义一个静态常量
+  public static void main(String[] args){
+    System.out.println("一年是" + Year + "天");
+  }
+}
+
+public class Test4_2{
+  public static void main(String[] args){
+    int x = 0; //定义一个整型变量
+    char ch1 = 'z'; //定义一个字符变量
+  }
+}
+
+task2
+掌握变量的命名规则
+1）变量名可由任意顺序的大小写、数字、下划线和$符号组成。
+2）变量名不能以数字开头。
+3）变量名不能是Java中的关键词
+
+task3
+掌握变量的作用范围
+1）成员变量:在类体中定义的变量为成员变量。它的作用范围为整个类。
+2）局部变量:在一个函数（或方法）或函数中的代码块中定义的变量称为局部变量。
+
+practice
+1.编写一个程序，定义一个局部变量sum，求1+2+3……+99+100.
+public class pra{
+ public static void main(String[] args){
+    int sum = 0;
+    int i = 0;
+    while(i <= 100){
+    sum += i;
+    i++;
+    }
+   System.out.println(sum);
+ }
+}
+
+
+
+
