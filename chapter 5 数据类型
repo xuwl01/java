@@ -1,0 +1,42 @@
+chapter 5 数据类型
+
+task1
+掌握整数类型的分类
+byte 1个字节 -128~127
+
+short 2个字节 -32768~32767 
+
+int  4个字节 
+
+long 8个字节
+
+task2
+掌握浮点数据类型的分类
+
+float 例：4.5f 、 (float)4.5
+
+double(含小数的实数默认为double数据类型)
+  
+task3
+掌握字符类型数据
+
+char 2个字节
+public class Test5_1{
+ public static void main(String[] args){
+  char ch1 = 97;
+  char ch2 = 'a'
+ }
+}
+
+ch1 = a
+ch2 = a
+
+转义字符:\f 换页
+        \\ 反斜杠
+        \' 单引号
+        \" 双引号
+        \n 换行
+
+task4
+掌握布尔类型数据
+boolean 1位 false or true
