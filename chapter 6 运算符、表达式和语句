@@ -1,0 +1,41 @@
+chapter 6 运算符、表达式和语句
+task1 
+掌握各种运算符的用法
+一元运算符：只需要一个操作数
+“+” 正号;“-” 负号;“!” 非; “~” 取补码;“++” 自增;"--" 自减。
+算数运算符：加 +、减 -、乘 *、除 /、取余 %
+逻辑运算符：逻辑运算符的操作数和运行结果只能是true或false。
+&& & 与 &和&&有什么区别。答：对于与操作，有一个条件不满足结果为false。对于普通与（&）所有判断条件都要执行；对于短路与（&&）如果前面有条件已经返回false，不再向后判断。
+|| | 或
+! 非
+三元运算符：数据类型 变量 = 布尔表达式 ? 条件满足则 : 条件不满足则。
+关系运算符：> ; < ; >= ; <= ; == ; !=.
+括号运算符：提高括号中表达式的优先级。
+
+task2
+掌握表达式的用法
+表达式是由常量、变量或是其他操作数与运算符所组合而成的语句。
+
+
+编写一个程序随机输出一个字母。
+import java.util.Random;
+class Test6_1{
+  public static void main(String[] args){
+  Random random = new Random();
+  boolean isUpperCase = random.nextBoolean();
+  char letter = isUpperCase ? (char)('A' + random.nextInt(26)) : (char)('a' + random.nextInt(26));
+  System.out.println(letter);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+  
