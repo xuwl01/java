@@ -1,0 +1,70 @@
+chapter 7 程序控制结构
+
+程序逻辑：
+1.顺序结构
+2.分支结构
+3.循环结构
+
+
+7.2 选择结构
+if语句
+if(condition){
+   语句1;
+   语句2;
+}
+
+if...else语句
+if(condition){
+   语句1;
+}
+else{
+   语句2;
+}
+
+if...else if..else
+
+switch语句
+switch(表达式){
+  case 常量选择值1 : 
+  语句1;
+  break;
+  case 常量选择值2 : 
+  语句2;
+  break;
+  ...
+
+}
+
+
+7.3 循环语句
+while 循环
+//满足循环条件则继续，否则跳出循环。
+while(conditon){
+  语句1;
+  语句2;
+}
+
+do...while 循环
+//先执行一次循环体，再判断表达式的值
+do
+{
+  语句1;
+}while(condition);
+
+for 循环
+for(int i = 0 ; i < n ; i++){
+    语句1；
+}
+
+foreach 循环
+//遍历数组。如果需要集合或数组的下标则推荐使用传统的for循环。
+for(int element:numArray){
+     System.out.println(element);
+}
+
+7.4 循环的跳转
+break
+立刻退出该循环，执行该结构下的第一条语句。
+
+continue
+立刻结束本次循环，并检查循环的条件，以决定是否进入下一次循环。即循环内continue之后的语句不执行直接跳过。
