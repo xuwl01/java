@@ -3,3 +3,27 @@ chapter 9 面向对象设计-类与对象
 封装性：封装使数据和加工该数据的方法（函数）封装为一个整体。封装的目的在于把对象的设计者和对象的使用者分开，使使用者不必知道具体实现的细节。
 继承性：子类共享父类数据和方法的机制
 多态性：对象根据所接收的消息而做出动作。同一消息被不同的对象所接收可能产生完全不同的行动，这种现象被称为多态性。
+
+
+对象只有在实例化之后才能被使用，实例化对象的关键词就是new
+
+public class 9_1{
+   public static void main(String[] args){
+   person p1 = new person;
+  p1.name = zhangsan;
+  p1.age = 11;
+  p1.talk();
+  }
+}
+class person{
+  String name;
+  int age;
+  void talk(){
+System.out.println(name+"今年"+ age "岁了");
+  }
+}
+
+
+
+
+
